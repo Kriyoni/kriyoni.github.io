@@ -63,8 +63,8 @@ filter: FlipH;
 	
 	/*color:white;*/
 	/*background-color: #ffffff;*/
-	width: 70.7%;
-	}
+	width: calc(100% - 390px);
+}
 #nav-bar
 {
 	padding-left: 130px;
