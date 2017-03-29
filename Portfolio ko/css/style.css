@@ -79,6 +79,8 @@ filter: FlipH;
     text-align: center; /*added by michael*/
     display: table-cell; /*added by michael*/
     vertical-align: middle; /*added by michael*/
+    padding:0px; /*added by michael*/
+    margin:0px; /*added by michael*/
 }
 #nav-bar ul li
 {
