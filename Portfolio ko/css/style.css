@@ -69,11 +69,16 @@ filter: FlipH;
 #nav-bar
 {
 	/*padding-left: 130px;*/ /*commented by michael*/
+	display: table; /*added by michael*/
+    width: 100%; /*added by michael*/
+    height: 100%; /*added by michael*/
 }
 #nav-bar ul
 {
 	list-style: none;
     text-align: center; /*added by michael*/
+    display: table-cell; /*added by michael*/
+    vertical-align: middle; /*added by michael*/
 }
 #nav-bar ul li
 {
