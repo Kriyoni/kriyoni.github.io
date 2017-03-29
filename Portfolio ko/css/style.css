@@ -25,6 +25,7 @@ header
 }
 .col-3
 {
+	vertical-align: top; /*added by michael*/
 	margin: 0px;	
 	/*background-color: #c7c7c7;*/
 	display: inline-block;
@@ -67,26 +68,27 @@ filter: FlipH;
 }
 #nav-bar
 {
-	padding-left: 130px;
+	/*padding-left: 130px;*/ /*commented by michael*/
 }
 #nav-bar ul
 {
-
-list-style: none;
+	list-style: none;
+    text-align: center; /*added by michael*/
 }
 #nav-bar ul li
 {
 	color: white;
 	text-align: center;
-	float: left;	
-	margin-top: 120px;
+	/*float: left;*/ /*commented by michael*/
+	display: inline-block; /*added by michael*/
+	/*margin-top: 120px;*/ /*commented by michael*/
 	padding : 15px 30px 15px 30px;
 	background-color: rgba(0,0,0,.5);
 
 }
 #push-to-right
 {
-	margin-left: 90px;
+	/*margin-left: 90px;*/ /*commented by michael*/
 }
 /*END OF SECTION FOR THE HEADER*/
 

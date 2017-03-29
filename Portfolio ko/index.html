@@ -7,26 +7,25 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<header><div class="col-3">
-		<img  id="left-speaker" class="speaker-size" src="css/images/speaker-desig.png" alt="Why?">
-	</div><div  id="main-body" class="col-3">
-		<div id="nav-bar">
-			<ul>
-				<li><a href="#aboutme">About Me</a></li>
-				<li id="push-to-right"><a href="#">My Gallery</a></li>
-				<li id="push-to-right"><a href="#">My Community</a></li>
-			</ul>
+	<!-- revised by michael removing new lines of starting tags inside header tag, ... behvioral problem of display:inline-block causing an immortal gap like margin -->
+	<!-- issue reference:  https://css-tricks.com/fighting-the-space-between-inline-block-elements/ -->
+	<header><div class="col-3">  
+			<img  id="left-speaker" class="speaker-size" src="css/images/speaker-desig.png" alt="Why?">
+		</div><div  id="main-body" class="col-3">
+			<div id="nav-bar">
+				<ul>
+					<li><a href="#aboutme">About Me</a></li>
+					<li id="push-to-right"><a href="#">My Gallery</a></li>
+					<li id="push-to-right"><a href="#">My Community</a></li>
+				</ul>
+			</div>
+		</div><div id="right-speaker" class="col-3">
+			<img  id="right-speaker" class="speaker-size" src="css/images/speaker-desig.png" alt="Why?">
 		</div>
-	</div><div id="right-speaker" class="col-3">
-		<img  id="right-speaker" class="speaker-size" src="css/images/speaker-desig.png" alt="Why?">
-	</div>
-</header>
-
-
-
-<div>
-<div style="height: 500px;"></div>
-<div id="aboutme" class="about-me-text" style="text-align: center"><b>About Me</b></div>
+	</header>
+	<div>
+		<div style="height: 500px;"></div>
+		<div id="aboutme" class="about-me-text" style="text-align: center"><b>About Me</b></div>
 		<div id ="about-me-container">
 			
 			<span class="about-me-text">
