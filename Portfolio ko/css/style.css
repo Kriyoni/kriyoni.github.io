@@ -79,6 +79,7 @@ filter: FlipH;
     text-align: center; /*added by michael*/
     display: table-cell; /*added by michael*/
     vertical-align: middle; /*added by michael*/
+    /* SOLUTION: http://vanseodesign.com/css/vertical-centering/ */
     padding:0px; /*added by michael*/
     margin:0px; /*added by michael*/
 }
