@@ -6,6 +6,8 @@ body
     background: -o-linear-gradient(#e5f4ff, #ffffff); 
     background: -moz-linear-gradient(#e5f4ff, #ffffff);
     background: linear-gradient(#e5f4ff, #ffffff); 
+    	
+	font-family: sans-serif;
   /*  background-image: url('lwfQm84.jpg');
     background-repeat: no-repeat;
     background-position: top;*/
@@ -25,7 +27,8 @@ header
 }
 .col-3
 {
-	vertical-align: top; /*added by michael*/
+	vertical-align: top; 
+	/*added by michael*/
 	margin: 0px;	
 	/*background-color: #c7c7c7;*/
 	display: inline-block;
@@ -85,13 +88,21 @@ filter: FlipH;
 }
 #nav-bar ul li
 {
-	color: white;
+	
 	text-align: center;
 	/*float: left;*/ /*commented by michael*/
 	display: inline-block; /*added by michael*/
 	/*margin-top: 120px;*/ /*commented by michael*/
 	padding : 15px 30px 15px 30px;
 	background-color: rgba(0,0,0,.5);
+	
+
+}
+#nav-bar ul li a
+{
+    	color: white;
+	font-family: sans-serif;
+	text-decoration: none;
 
 }
 #push-to-right
@@ -100,13 +111,51 @@ filter: FlipH;
 }
 /*END OF SECTION FOR THE HEADER*/
 
-
+#aboutme
+{
+	margin-top: 6px;
+	background-color: #ffffff;
+	width: 140px;
+    height: 146px;
+	color: #000000;
+	-moz-border-radius: 80px;
+	-webkit-border-radius: 80px;
+	border-radius: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+}
+#black-border
+{
+	background-color: #000000;
+	    width: 158px;
+    height: 159px;
+	color: #000000;
+	-moz-border-radius: 80px;
+	-webkit-border-radius: 80px;
+	border-radius: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+}
+#line
+{
+	display: none;
+	width: 800px;
+	height: 30px;
+}
+#aboutme b
+{
+	display: table-cell;
+	vertical-align: middle;
+}
 #about-me-container
 {
-	width: 250px;
+	width: 250px; height: auto;
+
 	/*background-color: #c7c7c7;*/
-	margin-top: 30px;
-	margin-left: 120px;
+	margin-left: auto;
+	margin-right: auto;
 	display: inline-block;
 }
 .about-me-text
