@@ -149,18 +149,30 @@ filter: FlipH;
 }
 #about-me-container
 {
-	width: 250px; height: auto;
-	/*background-color: #c7c7c7;*/
+	width: 70%; height: auto;
+	background-color: #a5c4ff;
+	padding: 30px;
+
+	margin-top: .5in;
 	margin-left: auto;
 	margin-right: auto;
-	display: inline-block;
+
 }
-.about-me-text
+#about-me-container:after
 {
-	
-	
+	width: 70%; height: auto;
+	background-color: #c7c7c7;
+	padding: 30px;
+
+	margin-top: .5in;
+	margin-left: auto;
+	margin-right: auto;
+	 -webkit-transform: skew(-45deg);
+  -ms-transform: skew(-45deg);
+  transform: skew(-45deg);
 }
-#guitar-bg
+
+guitar-bg
 {
 	width: 100%;
 	height: 100%;
