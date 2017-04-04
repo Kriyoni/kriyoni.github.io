@@ -31,42 +31,20 @@ header
 	/*added by michael*/
 	margin: 0px;	
 	/*background-color: #c7c7c7;*/
-	display: inline-block;
+	
 	/*border:1px solid white;*/
 	width: 195px;
 	height: 303px;
 
 }
-.speaker-size
-{
-	/*x=195
-	y=303*/
-	width: 195px;
-	height: 303px;
-}
-#right-speaker
-{
-	position: absolute;
- 	right: 0;
- 	-moz-transform: scale(-1, 1);
--webkit-transform: scale(-1, 1);
--o-transform: scale(-1, 1);
-transform: scale(-1, 1);
-filter: FlipH;
- }
-#left-speaker
-{
-	-moz-transform: scale(-1, 1);
-	-webkit-transform: scale(-1, 1);
-	-o-transform: scale(-1, 1);
-	transform: scale(-1, 1);
-	filter: FlipH;
-}
+
 #main-body
 {
 	
 	/*color:white;*/
 	/*background-color: #ffffff;*/
+	margin-left: auto;
+	margin-right: auto;
 	width: calc(100% - 390px);
 }
 #nav-bar
@@ -105,10 +83,6 @@ filter: FlipH;
 	text-decoration: none;
 
 }
-#push-to-right
-{
-	/*margin-left: 90px;*/ /*commented by michael*/
-}
 /*END OF SECTION FOR THE HEADER*/
 #true-body
 {
@@ -116,7 +90,8 @@ filter: FlipH;
 	margin-right: auto;
 	width: 70%;
 	/*Something*/
-}#aboutme
+}
+.section-style
 {
 	margin-top: 6px;
 	background-color: #ffffff;
@@ -131,8 +106,13 @@ filter: FlipH;
 	display: table;
 	border: 8px solid black;
 }
+.about-me-text
+{
+
+}
 #line
 { 
+	margin-top: 0px;
     display: inline-block;
     position: relative;
     left: 0;
@@ -142,7 +122,7 @@ filter: FlipH;
     height: 14px;
     background-color: #000000;
 }
-#aboutme b
+.center-cell
 {
 	display: table-cell;
 	vertical-align: middle;
